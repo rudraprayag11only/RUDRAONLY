@@ -1,9 +1,9 @@
 services:
   - type: web
-    name: your-app-name
-    runtime: python
-    pythonVersion: 3.10.13
+    name: highrise-bot
+    env: python
+    plan: free
     buildCommand: pip install -r requirements.txt
     startCommand: python main.py
-    plan: free 
+    pythonVersion: 3.10
 
