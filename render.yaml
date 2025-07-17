@@ -1,9 +1,7 @@
-services:
-  - type: web
-    name: rudrabot
-    env: python
-    plan: free
-    buildCommand: pip install -r requirements.txt
-    startCommand: python main.py
-    pythonVersion: 3.10
+runtime: python
+buildCommand: pip install -r requirements.txt
+startCommand: python main.py
+pythonVersion: 3.10.13
+plan: free
+
 
