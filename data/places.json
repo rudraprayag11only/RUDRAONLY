@@ -1,0 +1,38 @@
+{
+    "spawn": {
+        "x": 0.5,
+        "y": 0.0,
+        "z": 0.5,
+        "facing": "FrontRight"
+    },
+    "dancefloor": {
+        "x": 5.0,
+        "y": 0.0,
+        "z": 5.0,
+        "facing": "FrontLeft"
+    },
+    "bar": {
+        "x": -5.0,
+        "y": 0.0,
+        "z": 3.0,
+        "facing": "Front"
+    },
+    "lounge": {
+        "x": 2.0,
+        "y": 0.0,
+        "z": -4.0,
+        "facing": "BackRight"
+    },
+    "stage": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 8.0,
+        "facing": "Front"
+    },
+    "vip": {
+        "x": 12.5,
+        "y": 16.099998474121094,
+        "z": 5.0,
+        "facing": "FrontRight"
+    }
+}
